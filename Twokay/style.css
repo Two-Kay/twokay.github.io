@@ -1,0 +1,48 @@
+html {
+	background		: #a13;
+	color			: #fff;
+}
+
+body {
+	background		: #c24;
+	width			: 76%;
+	margin			: 0 12%;
+}
+
+h1 {
+	background		: #777;
+	padding			: 2.5em .1em 2.5em;
+	font-weight		: bold;
+	font-size		: 200%;
+	text-align		: center;
+	margin			: 0 0;
+}
+
+p {
+	font-family		: serif;
+	font-size		: 20px;
+	color			: #fff;
+	padding			: 0 1em;
+	text-align		: justify;
+}
+
+.navbar {
+  display			: flex;
+  flex-wrap			: nowrap;
+  background		: #c48;
+  justify-content	: space-around;
+  align-items		: center;
+}
+
+.navbar a {
+  color				: #636;
+  padding			: .6em 4em;
+  text-decoration	: none;
+  text-align		: center;
+  font-weight		: bold;
+}
+
+.navbar a:hover {
+  background-color	: #611;
+  color				: #fdd;
+}
