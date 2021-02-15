@@ -1,12 +1,12 @@
 html {
-	background		: #a13;
+	background		: #612;
 	color			: #fff;
 }
 
 body {
-	background		: #c24;
-	width			: 76%;
-	margin			: 0 12%;
+	background		: #612;
+	width			: 70%;
+	margin			: 0 15%;
 }
 
 h1 {
@@ -22,27 +22,48 @@ p {
 	font-family		: serif;
 	font-size		: 20px;
 	color			: #fff;
-	padding			: 0 1em;
+	padding			: 0 .2em .2em .2em;
 	text-align		: justify;
 }
 
+ul.s {
+	list-style-type	: square;
+}
+
+.bar {  
+	display			: flex;
+	flex-wrap		: wrap;
+}
+
+.mainbar {
+	flex			: 60%;
+	background		: #b03;
+	padding			: 20px;
+}
+
+.sidebar {
+	flex			: 10%;
+	background		: #a03;
+	padding			: 20px;
+}
+
 .navbar {
-  display			: flex;
-  flex-wrap			: nowrap;
-  background		: #c48;
-  justify-content	: space-around;
-  align-items		: center;
+	display			: flex;
+	flex-wrap		: nowrap;
+	background		: #269;
 }
 
 .navbar a {
-  color				: #636;
-  padding			: .6em 4em;
-  text-decoration	: none;
-  text-align		: center;
-  font-weight		: bold;
+	flex-grow		: 1;
+	color			: #fff;
+	padding			: .6em 4em;
+	text-decoration	: none;
+	text-align		: center;
+	font-weight		: bold;
 }
 
 .navbar a:hover {
-  background-color	: #611;
-  color				: #fdd;
+	background-color: #157;
+	color			: #fdd;
+	transition		: all .25s;
 }
